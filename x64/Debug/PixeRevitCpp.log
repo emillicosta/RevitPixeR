@@ -1,0 +1,401 @@
+﻿  FormsRender.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(145): error C2953: '_CrtEnableIf<true,_Ty>': template de classe já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(142): note: consulte a declaração de '_CrtEnableIf<true,_Ty>'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(322): warning C4005: '_CRT_INTERNAL_NONSTDC_NAMES': redefinição de macro
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(324): note: consulte a definição anterior de '_CRT_INTERNAL_NONSTDC_NAMES'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(518): error C2011: '__crt_locale_data_public': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(516): note: consulte a declaração de '__crt_locale_data_public'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(525): error C2011: '__crt_locale_pointers': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(523): note: consulte a declaração de '__crt_locale_pointers'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(533): error C2011: '_Mbstatet': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(41): error C2084: função 'errno_t memcpy_s(void *const ,const rsize_t,const void *const ,const rsize_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h(35): note: consulte a definição anterior de 'memcpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(70): error C2084: função 'errno_t memmove_s(void *const ,const rsize_t,const void *const ,const rsize_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h(64): note: consulte a definição anterior de 'memmove_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(79): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(80): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(94): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(95): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(62): error C2995: 'errno_t _itow_s(int,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(57): note: consulte a declaração de '_itow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(85): error C2995: 'errno_t _ltow_s(long,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(80): note: consulte a declaração de '_ltow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(107): error C2995: 'errno_t _ultow_s(unsigned long,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(102): note: consulte a declaração de '_ultow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(360): error C2995: 'errno_t _wmakepath_s(wchar_t (&)[_Size],const wchar_t *,const wchar_t *,const wchar_t *,const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(353): note: consulte a declaração de '_wmakepath_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(403): error C2995: 'errno_t _wsplitpath_s(const wchar_t *,wchar_t (&)[_DriveSize],wchar_t (&)[_DirSize],wchar_t (&)[_NameSize],wchar_t (&)[_ExtSize]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(400): note: consulte a declaração de '_wsplitpath_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(437): error C2995: 'errno_t _wgetenv_s(size_t *,wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(431): note: consulte a declaração de '_wgetenv_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(462): error C2995: 'errno_t _wsearchenv_s(const wchar_t *,const wchar_t *,wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(457): note: consulte a declaração de '_wsearchenv_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(93): error C2995: 'errno_t wcscat_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(89): note: consulte a declaração de 'wcscat_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(118): error C2995: 'errno_t wcscpy_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(114): note: consulte a declaração de 'wcscpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(170): error C2084: função 'size_t wcsnlen_s(const wchar_t *,size_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(166): note: consulte a definição anterior de 'wcsnlen_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(181): error C2995: 'errno_t wcsncat_s(wchar_t (&)[_Size],const wchar_t *,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(176): note: consulte a declaração de 'wcsncat_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(203): error C2995: 'errno_t wcsncpy_s(wchar_t (&)[_Size],const wchar_t *,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(198): note: consulte a declaração de 'wcsncpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(251): error C2084: função 'wchar_t *_wcstok(wchar_t *const ,const wchar_t *const )' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(247): note: consulte a definição anterior de '_wcstok'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(265): error C2084: função 'wchar_t *wcstok(wchar_t *,const wchar_t *) throw()' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(261): note: consulte a definição anterior de 'wcstok'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(293): error C2995: 'errno_t _wcserror_s(wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(289): note: consulte a declaração de '_wcserror_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(312): error C2995: 'errno_t __wcserror_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(308): note: consulte a declaração de '__wcserror_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(350): error C2995: 'errno_t _wcsnset_s(wchar_t (&)[_Size],wchar_t,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(345): note: consulte a declaração de '_wcsnset_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(374): error C2995: 'errno_t _wcsset_s(wchar_t (&)[_Size],wchar_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(370): note: consulte a declaração de '_wcsset_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(391): error C2995: 'errno_t _wcslwr_s(wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(388): note: consulte a declaração de '_wcslwr_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(409): error C2995: 'errno_t _wcslwr_s_l(wchar_t (&)[_Size],_locale_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(405): note: consulte a declaração de '_wcslwr_s_l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(427): error C2995: 'errno_t _wcsupr_s(wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(424): note: consulte a declaração de '_wcsupr_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(445): error C2995: 'errno_t _wcsupr_s_l(wchar_t (&)[_Size],_locale_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(441): note: consulte a declaração de '_wcsupr_s_l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(540): error C2084: função 'wchar_t *wcschr(wchar_t *,wchar_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(539): note: consulte a definição anterior de 'wcschr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(546): error C2084: função 'wchar_t *wcspbrk(wchar_t *,const wchar_t *)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(545): note: consulte a definição anterior de 'wcspbrk'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(552): error C2084: função 'wchar_t *wcsrchr(wchar_t *,wchar_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(551): note: consulte a definição anterior de 'wcsrchr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(559): error C2084: função 'wchar_t *wcsstr(wchar_t *,const wchar_t *)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(558): note: consulte a definição anterior de 'wcsstr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(193): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Users\emill\source\repos\PixeRevitCpp\PixeRevitCpp\FormsRender.h(49): error C3861: 'GetElementLight': identificador não encontrado
+  PSA.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(145): error C2953: '_CrtEnableIf<true,_Ty>': template de classe já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(142): note: consulte a declaração de '_CrtEnableIf<true,_Ty>'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(322): warning C4005: '_CRT_INTERNAL_NONSTDC_NAMES': redefinição de macro
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(324): note: consulte a definição anterior de '_CRT_INTERNAL_NONSTDC_NAMES'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(518): error C2011: '__crt_locale_data_public': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(516): note: consulte a declaração de '__crt_locale_data_public'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(525): error C2011: '__crt_locale_pointers': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(523): note: consulte a declaração de '__crt_locale_pointers'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(533): error C2011: '_Mbstatet': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(41): error C2084: função 'errno_t memcpy_s(void *const ,const rsize_t,const void *const ,const rsize_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h(35): note: consulte a definição anterior de 'memcpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(70): error C2084: função 'errno_t memmove_s(void *const ,const rsize_t,const void *const ,const rsize_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h(64): note: consulte a definição anterior de 'memmove_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(79): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(80): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(94): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(95): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(62): error C2995: 'errno_t _itow_s(int,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(57): note: consulte a declaração de '_itow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(85): error C2995: 'errno_t _ltow_s(long,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(80): note: consulte a declaração de '_ltow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(107): error C2995: 'errno_t _ultow_s(unsigned long,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(102): note: consulte a declaração de '_ultow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(360): error C2995: 'errno_t _wmakepath_s(wchar_t (&)[_Size],const wchar_t *,const wchar_t *,const wchar_t *,const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(353): note: consulte a declaração de '_wmakepath_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(403): error C2995: 'errno_t _wsplitpath_s(const wchar_t *,wchar_t (&)[_DriveSize],wchar_t (&)[_DirSize],wchar_t (&)[_NameSize],wchar_t (&)[_ExtSize]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(400): note: consulte a declaração de '_wsplitpath_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(437): error C2995: 'errno_t _wgetenv_s(size_t *,wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(431): note: consulte a declaração de '_wgetenv_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(462): error C2995: 'errno_t _wsearchenv_s(const wchar_t *,const wchar_t *,wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(457): note: consulte a declaração de '_wsearchenv_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(93): error C2995: 'errno_t wcscat_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(89): note: consulte a declaração de 'wcscat_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(118): error C2995: 'errno_t wcscpy_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(114): note: consulte a declaração de 'wcscpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(170): error C2084: função 'size_t wcsnlen_s(const wchar_t *,size_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(166): note: consulte a definição anterior de 'wcsnlen_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(181): error C2995: 'errno_t wcsncat_s(wchar_t (&)[_Size],const wchar_t *,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(176): note: consulte a declaração de 'wcsncat_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(203): error C2995: 'errno_t wcsncpy_s(wchar_t (&)[_Size],const wchar_t *,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(198): note: consulte a declaração de 'wcsncpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(251): error C2084: função 'wchar_t *_wcstok(wchar_t *const ,const wchar_t *const )' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(247): note: consulte a definição anterior de '_wcstok'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(265): error C2084: função 'wchar_t *wcstok(wchar_t *,const wchar_t *) throw()' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(261): note: consulte a definição anterior de 'wcstok'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(293): error C2995: 'errno_t _wcserror_s(wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(289): note: consulte a declaração de '_wcserror_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(312): error C2995: 'errno_t __wcserror_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(308): note: consulte a declaração de '__wcserror_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(350): error C2995: 'errno_t _wcsnset_s(wchar_t (&)[_Size],wchar_t,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(345): note: consulte a declaração de '_wcsnset_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(374): error C2995: 'errno_t _wcsset_s(wchar_t (&)[_Size],wchar_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(370): note: consulte a declaração de '_wcsset_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(391): error C2995: 'errno_t _wcslwr_s(wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(388): note: consulte a declaração de '_wcslwr_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(409): error C2995: 'errno_t _wcslwr_s_l(wchar_t (&)[_Size],_locale_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(405): note: consulte a declaração de '_wcslwr_s_l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(427): error C2995: 'errno_t _wcsupr_s(wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(424): note: consulte a declaração de '_wcsupr_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(445): error C2995: 'errno_t _wcsupr_s_l(wchar_t (&)[_Size],_locale_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(441): note: consulte a declaração de '_wcsupr_s_l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(540): error C2084: função 'wchar_t *wcschr(wchar_t *,wchar_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(539): note: consulte a definição anterior de 'wcschr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(546): error C2084: função 'wchar_t *wcspbrk(wchar_t *,const wchar_t *)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(545): note: consulte a definição anterior de 'wcspbrk'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(552): error C2084: função 'wchar_t *wcsrchr(wchar_t *,wchar_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(551): note: consulte a definição anterior de 'wcsrchr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(559): error C2084: função 'wchar_t *wcsstr(wchar_t *,const wchar_t *)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(558): note: consulte a definição anterior de 'wcsstr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(193): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(526): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(527): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(527): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(536): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(537): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(537): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(553): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(554): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(554): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(563): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(564): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(564): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(596): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(600): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(600): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(614): error C2079: '_Mbst2' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(617): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(617): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(636): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(640): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(640): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(654): error C2079: '_Mbst2' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(656): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(656): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1101): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1101): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1107): error C2664: 'std::codecvt_base::result std::codecvt<char16_t,char,_Mbstatet>::do_in(std::codecvt<char16_t,char,_Mbstatet>::_Statype &,const std::codecvt<char16_t,char,_Mbstatet>::_Byte *,const std::codecvt<char16_t,char,_Mbstatet>::_Byte *,const std::codecvt<char16_t,char,_Mbstatet>::_Byte *&,std::codecvt<char16_t,char,_Mbstatet>::_Elem *,std::codecvt<char16_t,char,_Mbstatet>::_Elem *,std::codecvt<char16_t,char,_Mbstatet>::_Elem *&) const': não é possível converter um argumento 1 de 'int' em 'std::codecvt<char16_t,char,_Mbstatet>::_Statype &'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1107): error C2789: '_Result': um objeto do tipo qualificado como const deve ser inicializado
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1107): note: consulte a declaração de '_Result'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1108): error C3536: '_Result': não pode ser usado antes de ser inicializado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1362): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1362): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1368): error C2664: 'std::codecvt_base::result std::codecvt<char32_t,char,_Mbstatet>::do_in(std::codecvt<char32_t,char,_Mbstatet>::_Statype &,const std::codecvt<char32_t,char,_Mbstatet>::_Byte *,const std::codecvt<char32_t,char,_Mbstatet>::_Byte *,const std::codecvt<char32_t,char,_Mbstatet>::_Byte *&,std::codecvt<char32_t,char,_Mbstatet>::_Elem *,std::codecvt<char32_t,char,_Mbstatet>::_Elem *,std::codecvt<char32_t,char,_Mbstatet>::_Elem *&) const': não é possível converter um argumento 1 de 'int' em 'std::codecvt<char32_t,char,_Mbstatet>::_Statype &'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1368): error C2789: '_Result': um objeto do tipo qualificado como const deve ser inicializado
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1368): note: consulte a declaração de '_Result'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1369): error C3536: '_Result': não pode ser usado antes de ser inicializado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1474): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1488): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1488): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1527): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1527): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1532): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1532): note: ao tentar corresponder a lista de argumentos '(std::codecvt<wchar_t,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1552): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1552): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1557): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1557): note: ao tentar corresponder a lista de argumentos '(std::codecvt<wchar_t,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1570): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1574): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1574): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1675): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1689): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1690): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1729): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1729): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1734): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1734): note: ao tentar corresponder a lista de argumentos '(std::codecvt<unsigned short,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1754): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1754): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1759): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1759): note: ao tentar corresponder a lista de argumentos '(std::codecvt<unsigned short,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1773): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1777): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1777): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2443): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2445): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2445): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2464): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2465): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2465): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2647): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2649): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2649): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2668): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2669): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2669): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+  SceneDescription.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(145): error C2953: '_CrtEnableIf<true,_Ty>': template de classe já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(142): note: consulte a declaração de '_CrtEnableIf<true,_Ty>'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(322): warning C4005: '_CRT_INTERNAL_NONSTDC_NAMES': redefinição de macro
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(324): note: consulte a definição anterior de '_CRT_INTERNAL_NONSTDC_NAMES'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(518): error C2011: '__crt_locale_data_public': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(516): note: consulte a declaração de '__crt_locale_data_public'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(525): error C2011: '__crt_locale_pointers': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(523): note: consulte a declaração de '__crt_locale_pointers'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt.h(533): error C2011: '_Mbstatet': redefinição do tipo 'struct'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(41): error C2084: função 'errno_t memcpy_s(void *const ,const rsize_t,const void *const ,const rsize_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h(35): note: consulte a definição anterior de 'memcpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_memcpy_s.h(70): error C2084: função 'errno_t memmove_s(void *const ,const rsize_t,const void *const ,const rsize_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_memcpy_s.h(64): note: consulte a definição anterior de 'memmove_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(79): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(80): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(94): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wctype.h(95): error C2059: erro de sintaxe: '('
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(62): error C2995: 'errno_t _itow_s(int,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(57): note: consulte a declaração de '_itow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(85): error C2995: 'errno_t _ltow_s(long,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(80): note: consulte a declaração de '_ltow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(107): error C2995: 'errno_t _ultow_s(unsigned long,wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(102): note: consulte a declaração de '_ultow_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(360): error C2995: 'errno_t _wmakepath_s(wchar_t (&)[_Size],const wchar_t *,const wchar_t *,const wchar_t *,const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(353): note: consulte a declaração de '_wmakepath_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(403): error C2995: 'errno_t _wsplitpath_s(const wchar_t *,wchar_t (&)[_DriveSize],wchar_t (&)[_DirSize],wchar_t (&)[_NameSize],wchar_t (&)[_ExtSize]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(400): note: consulte a declaração de '_wsplitpath_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(437): error C2995: 'errno_t _wgetenv_s(size_t *,wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(431): note: consulte a declaração de '_wgetenv_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstdlib.h(462): error C2995: 'errno_t _wsearchenv_s(const wchar_t *,const wchar_t *,wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstdlib.h(457): note: consulte a declaração de '_wsearchenv_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(93): error C2995: 'errno_t wcscat_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(89): note: consulte a declaração de 'wcscat_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(118): error C2995: 'errno_t wcscpy_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(114): note: consulte a declaração de 'wcscpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(170): error C2084: função 'size_t wcsnlen_s(const wchar_t *,size_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(166): note: consulte a definição anterior de 'wcsnlen_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(181): error C2995: 'errno_t wcsncat_s(wchar_t (&)[_Size],const wchar_t *,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(176): note: consulte a declaração de 'wcsncat_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(203): error C2995: 'errno_t wcsncpy_s(wchar_t (&)[_Size],const wchar_t *,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(198): note: consulte a declaração de 'wcsncpy_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(251): error C2084: função 'wchar_t *_wcstok(wchar_t *const ,const wchar_t *const )' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(247): note: consulte a definição anterior de '_wcstok'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(265): error C2084: função 'wchar_t *wcstok(wchar_t *,const wchar_t *) throw()' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(261): note: consulte a definição anterior de 'wcstok'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(293): error C2995: 'errno_t _wcserror_s(wchar_t (&)[_Size],int) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(289): note: consulte a declaração de '_wcserror_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(312): error C2995: 'errno_t __wcserror_s(wchar_t (&)[_Size],const wchar_t *) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(308): note: consulte a declaração de '__wcserror_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(350): error C2995: 'errno_t _wcsnset_s(wchar_t (&)[_Size],wchar_t,size_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(345): note: consulte a declaração de '_wcsnset_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(374): error C2995: 'errno_t _wcsset_s(wchar_t (&)[_Size],wchar_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(370): note: consulte a declaração de '_wcsset_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(391): error C2995: 'errno_t _wcslwr_s(wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(388): note: consulte a declaração de '_wcslwr_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(409): error C2995: 'errno_t _wcslwr_s_l(wchar_t (&)[_Size],_locale_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(405): note: consulte a declaração de '_wcslwr_s_l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(427): error C2995: 'errno_t _wcsupr_s(wchar_t (&)[_Size]) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(424): note: consulte a declaração de '_wcsupr_s'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(445): error C2995: 'errno_t _wcsupr_s_l(wchar_t (&)[_Size],_locale_t) throw()': template de função já foi definido
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(441): note: consulte a declaração de '_wcsupr_s_l'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(540): error C2084: função 'wchar_t *wcschr(wchar_t *,wchar_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(539): note: consulte a definição anterior de 'wcschr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(546): error C2084: função 'wchar_t *wcspbrk(wchar_t *,const wchar_t *)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(545): note: consulte a definição anterior de 'wcspbrk'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(552): error C2084: função 'wchar_t *wcsrchr(wchar_t *,wchar_t)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(551): note: consulte a definição anterior de 'wcsrchr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\corecrt_wstring.h(559): error C2084: função 'wchar_t *wcsstr(wchar_t *,const wchar_t *)' já possui um corpo
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt_wstring.h(558): note: consulte a definição anterior de 'wcsstr'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.18362.0\ucrt\wchar.h(193): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(526): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(527): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(527): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(536): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(537): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(537): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(553): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(554): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(554): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(563): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(564): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(564): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(596): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(600): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(600): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(614): error C2079: '_Mbst2' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(617): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(617): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(636): error C2079: '_Mbst1' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(640): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(640): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(654): error C2079: '_Mbst2' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(656): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(656): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1101): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1101): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1107): error C2664: 'std::codecvt_base::result std::codecvt<char16_t,char,_Mbstatet>::do_in(std::codecvt<char16_t,char,_Mbstatet>::_Statype &,const std::codecvt<char16_t,char,_Mbstatet>::_Byte *,const std::codecvt<char16_t,char,_Mbstatet>::_Byte *,const std::codecvt<char16_t,char,_Mbstatet>::_Byte *&,std::codecvt<char16_t,char,_Mbstatet>::_Elem *,std::codecvt<char16_t,char,_Mbstatet>::_Elem *,std::codecvt<char16_t,char,_Mbstatet>::_Elem *&) const': não é possível converter um argumento 1 de 'int' em 'std::codecvt<char16_t,char,_Mbstatet>::_Statype &'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1107): error C2789: '_Result': um objeto do tipo qualificado como const deve ser inicializado
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1107): note: consulte a declaração de '_Result'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1108): error C3536: '_Result': não pode ser usado antes de ser inicializado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1362): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1362): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1368): error C2664: 'std::codecvt_base::result std::codecvt<char32_t,char,_Mbstatet>::do_in(std::codecvt<char32_t,char,_Mbstatet>::_Statype &,const std::codecvt<char32_t,char,_Mbstatet>::_Byte *,const std::codecvt<char32_t,char,_Mbstatet>::_Byte *,const std::codecvt<char32_t,char,_Mbstatet>::_Byte *&,std::codecvt<char32_t,char,_Mbstatet>::_Elem *,std::codecvt<char32_t,char,_Mbstatet>::_Elem *,std::codecvt<char32_t,char,_Mbstatet>::_Elem *&) const': não é possível converter um argumento 1 de 'int' em 'std::codecvt<char32_t,char,_Mbstatet>::_Statype &'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1368): error C2789: '_Result': um objeto do tipo qualificado como const deve ser inicializado
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1368): note: consulte a declaração de '_Result'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1369): error C3536: '_Result': não pode ser usado antes de ser inicializado
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1474): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1488): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1488): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1527): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1527): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1532): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1532): note: ao tentar corresponder a lista de argumentos '(std::codecvt<wchar_t,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1552): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1552): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1557): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1557): note: ao tentar corresponder a lista de argumentos '(std::codecvt<wchar_t,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1570): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1574): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1574): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1675): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1689): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1690): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1729): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1729): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1734): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1734): note: ao tentar corresponder a lista de argumentos '(std::codecvt<unsigned short,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1754): error C2079: '_Stsave' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1754): error C2027: uso de tipo indefinido '_Mbstatet'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(531): note: consulte a declaração de '_Mbstatet'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1759): error C2679: '=' binário : nenhum operador encontrado que receba um operando de lado direito do tipo 'int' (ou não há conversão aceitável)
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: poderia ser '_Mbstatet &_Mbstatet::operator =(_Mbstatet &&)'
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.17763.0\ucrt\corecrt.h(535): note: ou       '_Mbstatet &_Mbstatet::operator =(const _Mbstatet &)'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1759): note: ao tentar corresponder a lista de argumentos '(std::codecvt<unsigned short,char,_Mbstatet>::_Statype, int)'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1773): error C2079: '_Mystate' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1777): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(1777): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2443): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2445): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2445): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2464): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2465): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2465): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2647): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2649): error C2664: 'int _Mbrtowc(wchar_t *,const char *,size_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 4 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2649): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2668): error C2079: '_Mbst' usa struct '_Mbstatet' indefinido
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2669): error C2664: 'int _Wcrtomb(char *,wchar_t,mbstate_t *,const _Cvtvec *)': não é possível converter um argumento 3 de 'int *' em 'mbstate_t *'
+  C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508\include\xlocale(2669): note: Tipos apontados não são relacionados; conversão requer reinterpret_cast, conversão C-style ou conversão function-style
+  Gerando Código...
