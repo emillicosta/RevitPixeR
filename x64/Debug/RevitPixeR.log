@@ -1,0 +1,6 @@
+﻿  RevitPixeR.cpp
+C:\Users\emill\source\repos\RevitPixeR\RevitPixeR\RevitPixeR.cpp(1): warning C4005: '__CLR_VER': redefinição de macro
+  C:\Users\emill\source\repos\RevitPixeR\RevitPixeR\pch.cpp: note: consulte a definição anterior de '__CLR_VER'
+C:\Users\emill\source\repos\RevitPixeR\RevitPixeR\RevitPixeR.cpp(1): warning C4651: '/D__CLR_VER=40703394' especificado para cabeçalho pré-compilado, mas não para compilação atual
+  AssemblyInfo.obj : Módulo MSIL encontrado; vínculo incremental está desabilitado para MSIL; executando link completo
+  RevitPixeR.vcxproj -> C:\Users\emill\source\repos\RevitPixeR\x64\Debug\RevitPixeR.dll
